@@ -1,6 +1,6 @@
 # 🚌 Proyecto API SUBE + Frontend Interactivo
 
-Este proyecto es una **aplicación full stack** desarrollada con **Node.js + Express** para manejar datos de transporte público (como los viajes SUBE), conectada a una base de datos remota en **SQLiteCloud**. Incluye un **frontend simple** en HTML, CSS y JavaScript puro para interactuar con la API.
+Este proyecto es una **aplicación** desarrollada con **Node.js + Express** para manejar datos de transporte público (como los viajes SUBE), conectada a una base de datos remota en **SQLiteCloud**. Incluye un **frontend simple** en HTML, CSS y JavaScript puro para interactuar con la API.
 
 ---
 
