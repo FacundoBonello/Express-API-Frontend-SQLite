@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agregar Viaje</title>
+  <link rel="stylesheet" href="css/estilosPost.css" />
+</head>
+<body>
+  <main>
+    <h1>Agregar Viaje</h1>
+    <form id="formulario-post">
+      <label for="id_provincia">ID Provincia:</label>
+      <input type="number" id="id_provincia" required />
+
+      <label for="id_empresa">ID Empresa:</label>
+      <input type="number" id="id_empresa" required />
+
+      <label for="dia_transporte">Día del Transporte:</label>
+      <input type="date" id="dia_transporte" required />
+
+      <label for="linea">Línea:</label>
+      <input type="text" id="linea" required />
+
+      <label for="tipo_transporte">Tipo de Transporte:</label>
+      <input type="text" id="tipo_transporte" required />
+
+      <label for="cantidad">Cantidad:</label>
+      <input type="number" id="cantidad" required />
+
+      <label for="dato_preliminar">Dato Preliminar (SI o NO):</label>
+      <input type="text" id="dato_preliminar" required />
+
+      <button type="submit">Agregar</button>
+    </form>
+
+    <p id="mensaje-post"></p>
+
+    <a href="index.html">⬅ Volver al menú</a>
+  </main>
+
+  <script src="javascript/post.js"></script>
+</body>
+</html>

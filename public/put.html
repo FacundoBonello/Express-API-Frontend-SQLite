@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Modificar Viaje</title>
+  <link rel="stylesheet" href="css/estilosPut.css" />
+</head>
+<body>
+  <main>
+    <h1>✏️ Modificar Viaje</h1>
+
+    <form id="form-put">
+      <label>ID del viaje a modificar:</label>
+      <input type="number" id="id-uso" required />
+
+      <label>ID Provincia:</label>
+      <input type="number" id="id-provincia" required />
+
+      <label>ID Empresa:</label>
+      <input type="number" id="id-empresa" required />
+
+      <label>Fecha del viaje:</label>
+      <input type="date" id="dia-transporte" required />
+
+      <label>Línea:</label>
+      <input type="text" id="linea" required />
+
+      <label>Tipo de transporte:</label>
+      <input type="text" id="tipo-transporte" required />
+
+      <label>Cantidad:</label>
+      <input type="number" id="cantidad" required />
+
+      <label>Dato preliminar (SI/NO):</label>
+      <input type="text" id="dato-preliminar" required />
+
+      <button type="submit">Modificar viaje</button>
+    </form>
+
+    <p id="mensaje-put"></p>
+    <a href="index.html">← Volver al inicio</a>
+  </main>
+
+  <script src="javascript/put.js"></script>
+</body>
+</html>

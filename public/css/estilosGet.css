@@ -1,0 +1,147 @@
+/* --------- RESETEO GENERAL --------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* --------- CUERPO --------- */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #1f1f2e, #3a3a58);
+  color: #f0f0f0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  padding: 3rem 1rem;
+}
+
+/* --------- CONTENEDOR PRINCIPAL --------- */
+main {
+  background: rgba(40, 40, 60, 0.95);
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* --------- TÍTULOS --------- */
+h1 {
+  font-size: 2.5rem;
+  color: #78d9ff;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #aad7ff;
+  margin-top: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+/* --------- SEPARADOR --------- */
+hr {
+  margin: 2rem 0;
+  border: 0;
+  height: 1px;
+  background-color: #444;
+}
+
+/* --------- BOTONES --------- */
+button {
+  background: #78d9ff;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 0.5rem;
+}
+
+button:hover {
+  background: #00aaff;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 170, 255, 0.3);
+}
+
+/* --------- INPUTS --------- */
+input[type="number"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #666;
+  background-color: #2e2e40;
+  color: #fff;
+  font-size: 1rem;
+  margin: 5px;
+  width: 100px;
+}
+
+/* --------- LISTAS Y RESULTADOS --------- */
+ul {
+  list-style: none;
+  margin-top: 1rem;
+  padding-left: 0;
+}
+
+li {
+  background-color: #292942;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+li:hover {
+  background-color: #3b3b5a;
+}
+
+/* --------- RESULTADO ID --------- */
+#resultado-id {
+  margin-top: 1rem;
+  background-color: #2e2e40;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* --------- ENLACE DE VOLVER --------- */
+/* a {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  color: #78d9ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #00aaff;
+}
+*/
+a {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  padding: 10px 16px;
+  color: #99e2ff;
+  background-color: transparent;
+  border: 2px solid #78d9ff;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: #78d9ff;
+  color: #000;
+  box-shadow: 0 4px 10px rgba(0, 170, 255, 0.3);
+}

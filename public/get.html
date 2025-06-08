@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Obtener Viajes - SubeData</title>
+  <link rel="stylesheet" href="css/estilosGet.css">
+</head>
+<body>
+  <main>
+    <h1>Obtener Viajes</h1>
+
+    <!-- Ver todos -->
+    <section>
+      <h2>📋 Ver todos los viajes</h2>
+      <button id="btn-get-todos">Mostrar todos</button>
+      <ul id="lista-todos"></ul>
+    </section>
+
+    <hr>
+
+    <!-- Buscar por ID -->
+    <section>
+      <h2>🔎 Buscar por ID</h2>
+      <input type="number" id="input-id" placeholder="Ingresá el ID" />
+      <button id="btn-buscar-id">Buscar</button>
+      <button id="btn-ocultar-id">Ocultar resultado</button>
+      <div id="resultado-id"></div>
+    </section>
+
+    <hr>
+
+    <!-- Buscar por rango de IDs -->
+    <section>
+      <h2>🔁 Buscar entre dos IDs</h2>
+      <input type="number" id="input-desde" placeholder="Desde ID" />
+      <input type="number" id="input-hasta" placeholder="Hasta ID" />
+      <button id="btn-buscar-rango">Buscar</button>
+      <button id="btn-ocultar-rango">Ocultar rango</button>
+      <ul id="lista-rango"></ul>
+    </section>
+
+    <hr>
+
+    <a href="index.html">← Volver al inicio</a>
+  </main>
+
+  <script src="javascript/get.js"></script>
+</body>
+</html>
